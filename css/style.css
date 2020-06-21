@@ -1,0 +1,575 @@
+/* type*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #ffffff;
+    left: auto;
+    right: auto;
+}
+
+.intro {
+    margin-bottom: 1em;
+    color: #ffffff;
+    width: 40vw;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #101d54;
+    margin-top: 1em;
+}
+
+#review {
+    text-align: center;
+}
+
+#bijschrift-promo {
+    width: 60%;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    color: #101d54;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+/* promovideo */
+
+#video-playerpromo {
+    margin: 0;
+}
+
+#videoschaal{
+    height: 80vh;
+    width: 60vw;
+   
+}
+
+.video-player {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+
+/* grid*/
+
+.gridwrap-start {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.gridwrap-article {
+    height: 900px;
+    margin: 8em 5% 10em 15%;
+}
+
+#infoknop {
+    height: 7vh;
+    width: 30vw;
+    background-color: #0AE2A8;
+    font: white;
+    font-size: 100%;
+    border-radius: 100px;
+    margin-left: 6em;
+}
+
+/* main */
+
+header {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 3%;
+    background-image: url(../assets/img/achtegrond-header-homepage.jpg);
+    background-size: cover;
+}   
+
+/* menu header balk */
+
+nav {
+    width: 100%;
+    height: 8%;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #101d54;
+    z-index: 9999;
+}
+
+.nav-ul li {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 10%;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.logo {
+    margin-left: calc(50% - 100px);
+    margin-bottom: 50px;
+    padding-top: 120px;
+}
+
+.logoafbeelding {
+    width: 200px;
+}
+
+#kidscon {
+    position: absolute;
+    margin-left: 58%;
+    z-index: 2;
+    margin-top: 2em;
+}
+
+
+.kidsimage {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 1em 1em 1em 1em;
+    background-size: cover;
+}
+
+#kind1 {
+    background-image: url(../assets/img/kids@2x.jpg);
+}
+
+#kind2 {
+    background-image: url(../assets/img/learningkid@2x.jpg);
+}
+
+#kind3 {
+    background-image: url(../assets/img/learningkids2@2x.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* WORKSHOPS */
+
+.workshop-container {
+    background-color: #101d54;
+    height: fit-content;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 8em;
+}
+
+.workshop-container h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.icoonruimte {
+    margin-top: 3em;
+    width: 50%;
+}
+
+#workshopbox {
+    width: fit-content;
+}
+
+.workshop {
+    height: 70vh;
+    width: 30vw;
+    background-color: #101d54;
+    float: left;
+}
+
+.klok {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+.personen {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#cheeringkid {
+    height: auto;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#cheeringkid:hover {
+    width: 85%;
+    height: auto;
+}
+
+#titelworkshop {
+    font-size: 1.2em;
+    color: white;
+    float: center;
+    font-weight: bold;
+    margin: 0.5em auto;
+    margin-bottom: 1em;
+}
+
+.workshopp {
+    font-size: 0.9em;
+    text-align: left;
+    color: white;
+    width: 24vw;
+    padding-left: 2.5em;
+    line-height: 1.5em;
+}
+
+#scratchkid {
+    height: auto;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#scratchkid:hover {
+    width: 85%;
+    height: auto;
+}
+
+#kleurtjes {
+    height: auto;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#kleurtjes:hover {
+    width: 85%;
+    height: auto;
+}
+
+.bekijkworkshops{
+    height: 8vh;
+    width: 35vw;
+    background-color: #0AE2A8;
+    color: #ffffff;
+    font-size: 1.5em;
+    border-radius: 100px;
+    border-style: none;
+    margin-top: 10%;
+}
+
+#downworkshops{
+    height: 8vh;
+    width: 50vw;
+    background-color: #0AE2A8;
+    color: #ffffff;
+    font-size: 1.5em;
+    border-radius: 100px;
+    border-style: none;
+    margin-top: 10%;
+    margin-left: calc(50% -  25vw);
+}
+
+#aanduiding {
+    height: 4%;
+    width: 16%;
+    background-color: #0AE2A8;
+    color: #ffffff;
+    font-size: 1.5em;
+    border-radius: 100px;
+    border-style: none;
+    transform: rotate(-40deg);
+    z-index: 50;
+    position: absolute;
+    padding-top: 0.5em;
+}
+
+/* REVIEWS */
+
+.gridwrap-review {
+    float: center;
+}
+
+p {
+    text-align: center;
+}
+
+.gridwrap-reviewtext {
+    background-color: white;
+    height: fit-content;
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+.gridwrap-review h2 {
+    font-size: 2.5em;
+    color: #101d54;
+    float: center;
+    padding-top: 3em;
+}
+
+.gridwrap-review p {
+    font-size: 1.4em;
+    text-align: center;
+    color: #101d54;
+    ;
+    width: 40vw;
+    margin: 0 auto;
+    line-height: 1.5em;
+    float: center;
+}
+
+.review {
+    background-color: #F45772;
+    height: fit-content;
+    width: 25vw;
+    float: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 30px;
+}
+
+.review h4 {
+    margin-top: 1em;
+    font-size: 1.9em;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#review-tekst {
+    width: 20vw;
+    height: fit-content;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.gridwrap-review h5 {
+    font-size: 1.3em;
+    color: #101d54;
+    float: left;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.reviewruimte {
+    line-height: 4em;
+}
+
+.starspace {
+    margin-bottom: 2em;
+    width: 10vh;
+    height: 10vw;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+    width: fit-content;
+}
+
+#rood-professor3 {
+    display: block;
+    padding-top: 2em;
+}
+
+/* footer */
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #101d54;
+    position: absolute;
+}
+
+#foottext {
+    color: white;
+    font-size: 1.3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+/* WORKSHOP PAGE */
+
+.gridwrap-info {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+
+.vblok {
+    width: 440px;
+    height: fit-content;
+    float: left;
+    margin: 2em;
+}
+
+.vblok h3 {
+    font-size: 1.6em;
+    color: #101d54;
+    text-align: center;
+    margin: 2em;
+    font-weight: bold;
+}
+
+.vblok p {
+    font-size: 1.5em;
+    color: #101d54;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-left: calc(50% - 50px);
+}
+
+.grootklok {
+    width: 40px;
+    height: 40px;
+}
+
+#aandeslag {
+    height: fit-content;
+    width: 60vw;
+    margin: 6em auto;
+}
+
+#aandeslag h2 {
+    text-align: center;
+}
+
+#aandeslag p {
+    font-size: 1.5em;
+    color: #101d54;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#bluesquare {
+    width: 100%;
+    height: fit-content;
+    background-color: #101d54;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.steps {
+    height: fit-content;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6em;
+}
+
+h6 {
+    font-size: 2em;
+    color: #ABCBFF;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.boldh6 {
+    font-weight: bold;
+}
+
+.steps p {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+#workshop {
+    width: 15em;
+    border-radius: 100px;
+    margin-left: calc(50% - 7.5em);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1460px) {
+    #kidscon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+#videoschaal{
+    height: 80vh;
+    width: 60vw;
+    margin-top: -20vh;
+    margin-bottom: -20vh;
+    }
+
+.intro{
+    font-size: 1em;
+    }
+
+.nav-ul a{
+    font-size: 1em
+    
+}
+
+#aanduiding{
+    font-size: 0.8em;
+}
+
+.bekijkworkshops{
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+#review-tekst{
+    font-size: 0.9em;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+            scale: 0.8;
+        }
+    }  
+      
+
+@media screen and (max-width: 900px) {
+        .videoschaal1{
+            height: 20vh;
+            width: 60vw;
+            }
+        }    
