@@ -1,3 +1,3 @@
 # codelab
 
-Op deze pagina wordt de site van codelab zichtbaar.
+In deze repositorie is de site van Code Lab te bekijken.
